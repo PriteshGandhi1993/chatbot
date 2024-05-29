@@ -7,7 +7,7 @@ export default css`
     align-content: center;
 }
 .login-window-container {
-    width: 80%;
+    width: 100%;
     border-radius: 8px;
     border: 1px solid gray;
     display: flex;
