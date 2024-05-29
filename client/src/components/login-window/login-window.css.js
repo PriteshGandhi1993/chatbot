@@ -42,7 +42,7 @@ export default css`
     background-color: #005DE8;
     border: none;
     color: white;
-    transition: all 0.5s ease 0s;
+    transition: all 0.1s ease 0s;
     box-shadow: rgb(158, 158, 158) 0px 2px 4px;
 }
 
@@ -50,7 +50,7 @@ export default css`
     background-color: black;
     border: none;
     color: white;
-    transition: 0.5s;
+    transition: 0.1s;
 }
 
 .title-div {

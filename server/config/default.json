@@ -1,0 +1,10 @@
+{
+    "elastic": {
+        "cloudID": "0d0dfde40dd944d0b111edb584b7875b:dXMtY2VudHJhbDEuZ2NwLmNsb3VkLmVzLmlvJDI0NWFiMmE2YmM0NDQwYTY4Zjc5MGYzZmU4MGY5MmQxJDEwYzMyYmU3YjdiMTQ4ZjJiNTAxODM2Yzk5N2VjZjRl",
+        "username": "enterprise_search",
+        "password": "forterchat@123"
+    },
+    "openApi": {
+        "openAIApiKey" : "sk-proj-aRVOGBaz2CzXvZ7tz5YeT3BlbkFJniTniR8t6iZj2Xu5W5Ak"
+    }
+}

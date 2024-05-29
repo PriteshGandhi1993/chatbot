@@ -78,7 +78,6 @@ export default css`
     display: flex;
     flex-direction: row;
     box-shadow: 0px 2px 1px #BDBDBD;
-    margin-top: 16px;
     background-color: white;
     padding: 8px 4px;
     border-radius: 16px;
@@ -142,5 +141,43 @@ export default css`
     box-shadow: 0px 2px 1px #BDBDBD;
     border: unset;
     margin-bottom: 8px;
+}
+
+.emoticon-group {
+    position: absolute;
+    padding: 2px 12px;
+    background-color: white;
+    margin-right: 4px;
+    margin-top: -18px;
+    z-index: 2;
+    align-self: flex-end;
+    color: mediumseagreen;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 23px;
+    box-shadow: 1px 1px 8px #BDBDBD;
+    cursor: pointer;
+    display: none
+}
+
+.emoticon-group-selected {
+    padding: 2px 12px;
+    background-color: white;
+    margin-top: -4px;
+    margin-left: 8px;
+    align-self: flex-start;
+    color: mediumseagreen;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 23px;
+    box-shadow: 1px 1px 8px #BDBDBD;
+    display: none;
+}
+
+.emoticon-btn {
+    border: none;
+    background: none;
+    padding: unset;
+    font-size: 14px;
 }`;
 

@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.13.1",
+    "config": "^3.3.11"
+  }
+}

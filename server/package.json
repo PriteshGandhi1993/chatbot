@@ -16,6 +16,10 @@
     "rimraf": "^3.0.2"
   },
   "dependencies": {
+    "@elastic/elasticsearch": "^8.13.1",
+    "@huggingface/inference": "^2.7.0",
+    "@langchain/openai": "^0.0.33",
+    "config": "^3.3.11",
     "express": "^4.17.1",
     "socket.io": "^4.5.2",
     "uuid": "^9.0.1"
