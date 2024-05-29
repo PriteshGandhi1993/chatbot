@@ -168,19 +168,22 @@ class ElasticClient {
 				}
 			});
 			let botAnswer = await this.searchAnswer(answerIds);
-			let objToSend = {
-				message: botAnswer,
-				firstName: "AutoBot",
-				lastName: " ",
-				initials: "AB",
-				userId: "1",
-				timestamp: new Date(),
-				color: "#000000",
-				questionId: message.messageId,
-				messageId: uuidv4(),
-			};
-			this.addAnswer(objToSend);
-			eventHandler.emit("questionSearchCompleted", objToSend);
+			if(botAnswer) 
+			{
+				let objToSend = {
+					message: botAnswer,
+					firstName: "AutoBot",
+					lastName: " ",
+					initials: "AB",
+					userId: "1",
+					timestamp: new Date(),
+					color: "#000000",
+					questionId: message.messageId,
+					messageId: uuidv4(),
+				};
+				this.addAnswer(objToSend);
+				eventHandler.emit("questionSearchCompleted", objToSend);
+			}
 		} catch (error) {
 			console.log(error);
 		}
